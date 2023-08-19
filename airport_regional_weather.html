@@ -1,0 +1,1895 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_632622cbb94ff6ce1fec90ad21676fe8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_632622cbb94ff6ce1fec90ad21676fe8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_632622cbb94ff6ce1fec90ad21676fe8 = L.map(
+                "map_632622cbb94ff6ce1fec90ad21676fe8",
+                {
+                    center: [-34.9285, 138.6007],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_787927269cc8f1b688c151bea7e6b511 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var marker_2f6ee8d9bcf504e075db4f4e506e863e = L.marker(
+                [-34.9474, 138.53],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+        var popup_127e51c5cdafc2748164fca632e79835 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8b92191ecc9bd66ce6e05eeed6499e5 = $(`<div id="html_c8b92191ecc9bd66ce6e05eeed6499e5" style="width: 100.0%; height: 100.0%;">Adelaide Airport</div>`)[0];
+                popup_127e51c5cdafc2748164fca632e79835.setContent(html_c8b92191ecc9bd66ce6e05eeed6499e5);
+            
+        
+
+        marker_2f6ee8d9bcf504e075db4f4e506e863e.bindPopup(popup_127e51c5cdafc2748164fca632e79835)
+        ;
+
+        
+    
+    
+            var marker_dd372a345be8b374cae99003aa8eff0b = L.marker(
+                [-34.9803, 138.516],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_48b0e024935d1e6aa906657b31ead365 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd372a345be8b374cae99003aa8eff0b.setIcon(icon_48b0e024935d1e6aa906657b31ead365);
+        
+    
+        var popup_0dd5f36482084b5fae97ab41ac0ce362 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e161c72b7866c6d03b406bde9d1b15eb = $(`<div id="html_e161c72b7866c6d03b406bde9d1b15eb" style="width: 100.0%; height: 100.0%;">Glenelg Beach</div>`)[0];
+                popup_0dd5f36482084b5fae97ab41ac0ce362.setContent(html_e161c72b7866c6d03b406bde9d1b15eb);
+            
+        
+
+        marker_dd372a345be8b374cae99003aa8eff0b.bindPopup(popup_0dd5f36482084b5fae97ab41ac0ce362)
+        ;
+
+        
+    
+    
+            var marker_374ed2247261913afca8cbc18d55b0e6 = L.marker(
+                [-34.918, 138.6152],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_f92854bca578e7205cf014e8564ebe06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_374ed2247261913afca8cbc18d55b0e6.setIcon(icon_f92854bca578e7205cf014e8564ebe06);
+        
+    
+        var popup_84962894095ec56811fe3f633675708f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2acd4d297207094b8b1a7b6a7cdc68f3 = $(`<div id="html_2acd4d297207094b8b1a7b6a7cdc68f3" style="width: 100.0%; height: 100.0%;">Adelaide Botanic Garden</div>`)[0];
+                popup_84962894095ec56811fe3f633675708f.setContent(html_2acd4d297207094b8b1a7b6a7cdc68f3);
+            
+        
+
+        marker_374ed2247261913afca8cbc18d55b0e6.bindPopup(popup_84962894095ec56811fe3f633675708f)
+        ;
+
+        
+    
+    
+            var marker_e00d254e86e441271180811c0b1876e3 = L.marker(
+                [-34.922, 138.6067],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_8ad3a3c92f4525a0add455aaf2fb0e95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "shop", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e00d254e86e441271180811c0b1876e3.setIcon(icon_8ad3a3c92f4525a0add455aaf2fb0e95);
+        
+    
+        var popup_2d13816836e4d1a427f9e00f88d8ff54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9f240c145a64e424927d93cf7b09340 = $(`<div id="html_f9f240c145a64e424927d93cf7b09340" style="width: 100.0%; height: 100.0%;">Rundle Mall</div>`)[0];
+                popup_2d13816836e4d1a427f9e00f88d8ff54.setContent(html_f9f240c145a64e424927d93cf7b09340);
+            
+        
+
+        marker_e00d254e86e441271180811c0b1876e3.bindPopup(popup_2d13816836e4d1a427f9e00f88d8ff54)
+        ;
+
+        
+    
+    
+            var marker_0c83a39768078d49aae0c2f8b8ce71d6 = L.marker(
+                [-34.915, 138.5962],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_057f902a97c07283c4b2c1df6a880543 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ticket", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0c83a39768078d49aae0c2f8b8ce71d6.setIcon(icon_057f902a97c07283c4b2c1df6a880543);
+        
+    
+        var popup_56947003dec319256278bc5cecd1b6f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c4ac5d85bf7ec29a47e9351e32cf37c = $(`<div id="html_3c4ac5d85bf7ec29a47e9351e32cf37c" style="width: 100.0%; height: 100.0%;">Adelaide Oval</div>`)[0];
+                popup_56947003dec319256278bc5cecd1b6f0.setContent(html_3c4ac5d85bf7ec29a47e9351e32cf37c);
+            
+        
+
+        marker_0c83a39768078d49aae0c2f8b8ce71d6.bindPopup(popup_56947003dec319256278bc5cecd1b6f0)
+        ;
+
+        
+    
+    
+            var marker_be5e9df1e0c4f2db433bc8ed7f7e347c = L.marker(
+                [-34.9277, 138.5021],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_3f0f2f1b0e00e4b467951d52675a0f2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be5e9df1e0c4f2db433bc8ed7f7e347c.setIcon(icon_3f0f2f1b0e00e4b467951d52675a0f2e);
+        
+    
+        var popup_2741fa644433a6a9cb0746dc852cc874 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e496b133be0ea28b9e8f75295ff7659 = $(`<div id="html_7e496b133be0ea28b9e8f75295ff7659" style="width: 100.0%; height: 100.0%;">Henley Beach</div>`)[0];
+                popup_2741fa644433a6a9cb0746dc852cc874.setContent(html_7e496b133be0ea28b9e8f75295ff7659);
+            
+        
+
+        marker_be5e9df1e0c4f2db433bc8ed7f7e347c.bindPopup(popup_2741fa644433a6a9cb0746dc852cc874)
+        ;
+
+        
+    
+    
+            var marker_02597e614aee684c8ac7f5aa285d530c = L.marker(
+                [-29.0131, 134.7536],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_097eaad9042c3a75703dabf7b23bb772 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02597e614aee684c8ac7f5aa285d530c.setIcon(icon_097eaad9042c3a75703dabf7b23bb772);
+        
+    
+        var popup_3ee369f97c91ceb8aeff0332d13635c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96b5d7172d6b3d41b32dc27eab26e31d = $(`<div id="html_96b5d7172d6b3d41b32dc27eab26e31d" style="width: 100.0%; height: 100.0%;">Coober Pedy</div>`)[0];
+                popup_3ee369f97c91ceb8aeff0332d13635c3.setContent(html_96b5d7172d6b3d41b32dc27eab26e31d);
+            
+        
+
+        marker_02597e614aee684c8ac7f5aa285d530c.bindPopup(popup_3ee369f97c91ceb8aeff0332d13635c3)
+        ;
+
+        
+    
+    
+            var marker_312e2e9d6ea396cbce134603654fdc01 = L.marker(
+                [-34.5333, 139.0467],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_dc424c4e7142c063e4bb998124f22930 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_312e2e9d6ea396cbce134603654fdc01.setIcon(icon_dc424c4e7142c063e4bb998124f22930);
+        
+    
+        var popup_8b8f10b4e636242598184f574a281b6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64646397ee7ebcbefef4bf38508b35e7 = $(`<div id="html_64646397ee7ebcbefef4bf38508b35e7" style="width: 100.0%; height: 100.0%;">Barossa Valley</div>`)[0];
+                popup_8b8f10b4e636242598184f574a281b6e.setContent(html_64646397ee7ebcbefef4bf38508b35e7);
+            
+        
+
+        marker_312e2e9d6ea396cbce134603654fdc01.bindPopup(popup_8b8f10b4e636242598184f574a281b6e)
+        ;
+
+        
+    
+    
+            var marker_b6d89018e1109246d944371020d18a4a = L.marker(
+                [-35.7754, 137.2147],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_92e6c71f26fa1a79c0b4fda82bcb31f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b6d89018e1109246d944371020d18a4a.setIcon(icon_92e6c71f26fa1a79c0b4fda82bcb31f0);
+        
+    
+        var popup_56528d1089261f6221481ce7d594ec14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da1f71b0f7212d7aa55fae0b51d344b0 = $(`<div id="html_da1f71b0f7212d7aa55fae0b51d344b0" style="width: 100.0%; height: 100.0%;">Kangaroo Island</div>`)[0];
+                popup_56528d1089261f6221481ce7d594ec14.setContent(html_da1f71b0f7212d7aa55fae0b51d344b0);
+            
+        
+
+        marker_b6d89018e1109246d944371020d18a4a.bindPopup(popup_56528d1089261f6221481ce7d594ec14)
+        ;
+
+        
+    
+    
+            var marker_543e370d59966d11e92e32a01839292f = L.marker(
+                [-33.9172, 138.6067],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_9270a106c01373377653c637edd11844 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_543e370d59966d11e92e32a01839292f.setIcon(icon_9270a106c01373377653c637edd11844);
+        
+    
+        var popup_550d75eaeaa3b77e80e41e43696345e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94e5a2686c7ebd8216b7a963287d8588 = $(`<div id="html_94e5a2686c7ebd8216b7a963287d8588" style="width: 100.0%; height: 100.0%;">Clare Valley</div>`)[0];
+                popup_550d75eaeaa3b77e80e41e43696345e6.setContent(html_94e5a2686c7ebd8216b7a963287d8588);
+            
+        
+
+        marker_543e370d59966d11e92e32a01839292f.bindPopup(popup_550d75eaeaa3b77e80e41e43696345e6)
+        ;
+
+        
+    
+    
+            var marker_921e045d8b2016169d537d18d22f6907 = L.marker(
+                [-35.217, 138.544],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_d261b2fa99f32a1cea2df916794b7cb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_921e045d8b2016169d537d18d22f6907.setIcon(icon_d261b2fa99f32a1cea2df916794b7cb8);
+        
+    
+        var popup_0d9fff88fbb59913bf5c29f790cab750 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb378b028134e39e152a4303b11d31c8 = $(`<div id="html_eb378b028134e39e152a4303b11d31c8" style="width: 100.0%; height: 100.0%;">McLaren Vale</div>`)[0];
+                popup_0d9fff88fbb59913bf5c29f790cab750.setContent(html_eb378b028134e39e152a4303b11d31c8);
+            
+        
+
+        marker_921e045d8b2016169d537d18d22f6907.bindPopup(popup_0d9fff88fbb59913bf5c29f790cab750)
+        ;
+
+        
+    
+    
+            var marker_14929ff7639bd65a396407a6995e4a86 = L.marker(
+                [-34.6095, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_f31b3d2b3c5f32af30933135c6273b05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_14929ff7639bd65a396407a6995e4a86.setIcon(icon_f31b3d2b3c5f32af30933135c6273b05);
+        
+    
+        var popup_0573c64382b6492b92589c2b7e7348f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b33699c21bbc56742c9738f071171ac4 = $(`<div id="html_b33699c21bbc56742c9738f071171ac4" style="width: 100.0%; height: 100.0%;">Coffin Bay</div>`)[0];
+                popup_0573c64382b6492b92589c2b7e7348f2.setContent(html_b33699c21bbc56742c9738f071171ac4);
+            
+        
+
+        marker_14929ff7639bd65a396407a6995e4a86.bindPopup(popup_0573c64382b6492b92589c2b7e7348f2)
+        ;
+
+        
+    
+    
+            var marker_a31d15a0bd25581eebac07ece579db49 = L.marker(
+                [-34.7209, 135.8568],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_b24110690c0af20900c3da345e8a2a1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a31d15a0bd25581eebac07ece579db49.setIcon(icon_b24110690c0af20900c3da345e8a2a1e);
+        
+    
+        var popup_3b12a498a799354bf178e491067fbc43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58bcb91e0d379b8d87a88dfc76745f25 = $(`<div id="html_58bcb91e0d379b8d87a88dfc76745f25" style="width: 100.0%; height: 100.0%;">Port Lincoln</div>`)[0];
+                popup_3b12a498a799354bf178e491067fbc43.setContent(html_58bcb91e0d379b8d87a88dfc76745f25);
+            
+        
+
+        marker_a31d15a0bd25581eebac07ece579db49.bindPopup(popup_3b12a498a799354bf178e491067fbc43)
+        ;
+
+        
+    
+    
+            var marker_39de58e3fb4fdbe84bdf6063f7895782 = L.marker(
+                [-29.0131, 134.7536],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_b6b46ac4070c1bce778db9b7c0651f81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_39de58e3fb4fdbe84bdf6063f7895782.setIcon(icon_b6b46ac4070c1bce778db9b7c0651f81);
+        
+    
+        var popup_c9519f9169c0de8a13e20eb8eed74e0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fc4d0786eda45647e9f5ca79a243d1b = $(`<div id="html_9fc4d0786eda45647e9f5ca79a243d1b" style="width: 100.0%; height: 100.0%;">Coober Pedy</div>`)[0];
+                popup_c9519f9169c0de8a13e20eb8eed74e0e.setContent(html_9fc4d0786eda45647e9f5ca79a243d1b);
+            
+        
+
+        marker_39de58e3fb4fdbe84bdf6063f7895782.bindPopup(popup_c9519f9169c0de8a13e20eb8eed74e0e)
+        ;
+
+        
+    
+    
+            var marker_fc6c43f13c7d161c695e0129be97cb20 = L.marker(
+                [-34.5333, 139.0467],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_3c1dc34256cdee9135b0889291be1a75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fc6c43f13c7d161c695e0129be97cb20.setIcon(icon_3c1dc34256cdee9135b0889291be1a75);
+        
+    
+        var popup_c7ac330ada4aabe10e8b53b491c31c3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f20520129107f1ed7dd0356eebb57a68 = $(`<div id="html_f20520129107f1ed7dd0356eebb57a68" style="width: 100.0%; height: 100.0%;">Barossa Valley</div>`)[0];
+                popup_c7ac330ada4aabe10e8b53b491c31c3c.setContent(html_f20520129107f1ed7dd0356eebb57a68);
+            
+        
+
+        marker_fc6c43f13c7d161c695e0129be97cb20.bindPopup(popup_c7ac330ada4aabe10e8b53b491c31c3c)
+        ;
+
+        
+    
+    
+            var marker_44b3860e8e8d47cc5294da6ccbb621e4 = L.marker(
+                [-35.7754, 137.2147],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_ea1e3a38980836da7f9449759f138bd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_44b3860e8e8d47cc5294da6ccbb621e4.setIcon(icon_ea1e3a38980836da7f9449759f138bd2);
+        
+    
+        var popup_9c4ce0a8d553baaa3bd5aa167cf2f970 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2134ae2515ce5ea5c88796a16b4f55e7 = $(`<div id="html_2134ae2515ce5ea5c88796a16b4f55e7" style="width: 100.0%; height: 100.0%;">Kangaroo Island</div>`)[0];
+                popup_9c4ce0a8d553baaa3bd5aa167cf2f970.setContent(html_2134ae2515ce5ea5c88796a16b4f55e7);
+            
+        
+
+        marker_44b3860e8e8d47cc5294da6ccbb621e4.bindPopup(popup_9c4ce0a8d553baaa3bd5aa167cf2f970)
+        ;
+
+        
+    
+    
+            var marker_6f6dd8c1425add8d3b3ec9202b3888d2 = L.marker(
+                [-33.9172, 138.6067],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_8394f7350eba7b822daa4f583a49b770 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6f6dd8c1425add8d3b3ec9202b3888d2.setIcon(icon_8394f7350eba7b822daa4f583a49b770);
+        
+    
+        var popup_b1dccc30f7688cee1204537b70610fc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec6e3c96ace00a35574e5dd83c8157e6 = $(`<div id="html_ec6e3c96ace00a35574e5dd83c8157e6" style="width: 100.0%; height: 100.0%;">Clare Valley</div>`)[0];
+                popup_b1dccc30f7688cee1204537b70610fc0.setContent(html_ec6e3c96ace00a35574e5dd83c8157e6);
+            
+        
+
+        marker_6f6dd8c1425add8d3b3ec9202b3888d2.bindPopup(popup_b1dccc30f7688cee1204537b70610fc0)
+        ;
+
+        
+    
+    
+            var marker_f0c8fae236ea4d268095cc5d8d20011c = L.marker(
+                [-35.217, 138.544],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_c12739b94ef48ec213b7c11624b8d85d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f0c8fae236ea4d268095cc5d8d20011c.setIcon(icon_c12739b94ef48ec213b7c11624b8d85d);
+        
+    
+        var popup_ba041f1790cafecf0c6095932ed00024 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20182ff3cf1f53cb27eb93349bd608ef = $(`<div id="html_20182ff3cf1f53cb27eb93349bd608ef" style="width: 100.0%; height: 100.0%;">McLaren Vale</div>`)[0];
+                popup_ba041f1790cafecf0c6095932ed00024.setContent(html_20182ff3cf1f53cb27eb93349bd608ef);
+            
+        
+
+        marker_f0c8fae236ea4d268095cc5d8d20011c.bindPopup(popup_ba041f1790cafecf0c6095932ed00024)
+        ;
+
+        
+    
+    
+            var marker_faaa5d6a774316c15b9b7b959486dee2 = L.marker(
+                [-34.6095, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_0d6c1ea5ea03c6bad6314912b9021927 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_faaa5d6a774316c15b9b7b959486dee2.setIcon(icon_0d6c1ea5ea03c6bad6314912b9021927);
+        
+    
+        var popup_7b6424b85df7b91b285653a9ad649fe1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e16024cf7be488ff857216eaa443640c = $(`<div id="html_e16024cf7be488ff857216eaa443640c" style="width: 100.0%; height: 100.0%;">Coffin Bay</div>`)[0];
+                popup_7b6424b85df7b91b285653a9ad649fe1.setContent(html_e16024cf7be488ff857216eaa443640c);
+            
+        
+
+        marker_faaa5d6a774316c15b9b7b959486dee2.bindPopup(popup_7b6424b85df7b91b285653a9ad649fe1)
+        ;
+
+        
+    
+    
+            var marker_0a23365517ee0f64376ebb35662c8aa0 = L.marker(
+                [-34.7209, 135.8568],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_15342958890ba5e63068987dc7bac79f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0a23365517ee0f64376ebb35662c8aa0.setIcon(icon_15342958890ba5e63068987dc7bac79f);
+        
+    
+        var popup_904cd8a5342507ef3717cc45d365d6fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b96939b97137874a11ad33b0d2fe2f6e = $(`<div id="html_b96939b97137874a11ad33b0d2fe2f6e" style="width: 100.0%; height: 100.0%;">Port Lincoln</div>`)[0];
+                popup_904cd8a5342507ef3717cc45d365d6fa.setContent(html_b96939b97137874a11ad33b0d2fe2f6e);
+            
+        
+
+        marker_0a23365517ee0f64376ebb35662c8aa0.bindPopup(popup_904cd8a5342507ef3717cc45d365d6fa)
+        ;
+
+        
+    
+    
+            var marker_59af418279953b1d640dcf1950d8f5e6 = L.marker(
+                [-34.5595, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_828e667f67eee754689830e24e072ba3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_59af418279953b1d640dcf1950d8f5e6.setIcon(icon_828e667f67eee754689830e24e072ba3);
+        
+    
+        var popup_ed0745c0c9087db9269b3312b099b40a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04df9bd6246ac49247a1f360ce7ddc1c = $(`<div id="html_04df9bd6246ac49247a1f360ce7ddc1c" style="width: 100.0%; height: 100.0%;">Coffin Bay: Partly Cloudy</div>`)[0];
+                popup_ed0745c0c9087db9269b3312b099b40a.setContent(html_04df9bd6246ac49247a1f360ce7ddc1c);
+            
+        
+
+        marker_59af418279953b1d640dcf1950d8f5e6.bindPopup(popup_ed0745c0c9087db9269b3312b099b40a)
+        ;
+
+        
+    
+    
+            var marker_321eb6bb1a96bdecc9e8c3eb194d6845 = L.marker(
+                [-34.5595, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_b1619157d0c24bcbb50e89a2d953d24b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_321eb6bb1a96bdecc9e8c3eb194d6845.setIcon(icon_b1619157d0c24bcbb50e89a2d953d24b);
+        
+    
+        var popup_419d640e2d9c5ebaa7c886db1478c452 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_003eb8125f280e3236675a23d49038dd = $(`<div id="html_003eb8125f280e3236675a23d49038dd" style="width: 100.0%; height: 100.0%;">Port Lincoln: Sunny</div>`)[0];
+                popup_419d640e2d9c5ebaa7c886db1478c452.setContent(html_003eb8125f280e3236675a23d49038dd);
+            
+        
+
+        marker_321eb6bb1a96bdecc9e8c3eb194d6845.bindPopup(popup_419d640e2d9c5ebaa7c886db1478c452)
+        ;
+
+        
+    
+    
+            var marker_1a3d5025ecdd42e46e3263b990f823db = L.marker(
+                [-34.5595, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_0ae2b19935d29402b68f5d75af229b11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1a3d5025ecdd42e46e3263b990f823db.setIcon(icon_0ae2b19935d29402b68f5d75af229b11);
+        
+    
+        var popup_6dfd7ed4ea4e80afa90461707f6286af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9831a4624846813c4b0f1d975a34d072 = $(`<div id="html_9831a4624846813c4b0f1d975a34d072" style="width: 100.0%; height: 100.0%;">Barossa Valley: Sunny</div>`)[0];
+                popup_6dfd7ed4ea4e80afa90461707f6286af.setContent(html_9831a4624846813c4b0f1d975a34d072);
+            
+        
+
+        marker_1a3d5025ecdd42e46e3263b990f823db.bindPopup(popup_6dfd7ed4ea4e80afa90461707f6286af)
+        ;
+
+        
+    
+    
+            var marker_7d784d84151e03e53ab63704ece67d19 = L.marker(
+                [-29.0131, 134.7536],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_44ed48153cc76f9b94d0f4ab7578812e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7d784d84151e03e53ab63704ece67d19.setIcon(icon_44ed48153cc76f9b94d0f4ab7578812e);
+        
+    
+        var popup_a733b7eff8886258f62c50e2eb3062ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00e6ddf15b98b2c0caa5113dc348f13f = $(`<div id="html_00e6ddf15b98b2c0caa5113dc348f13f" style="width: 100.0%; height: 100.0%;">Coober Pedy weather: Sunny Fire service: N/A Emergency Service: N/A </div>`)[0];
+                popup_a733b7eff8886258f62c50e2eb3062ae.setContent(html_00e6ddf15b98b2c0caa5113dc348f13f);
+            
+        
+
+        marker_7d784d84151e03e53ab63704ece67d19.bindPopup(popup_a733b7eff8886258f62c50e2eb3062ae)
+        ;
+
+        
+    
+    
+            var marker_149e9fea810550b2b2f68fa9bf052ef5 = L.marker(
+                [-34.5333, 139.0467],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_85b7da22031af62526eef5d339c1de80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_149e9fea810550b2b2f68fa9bf052ef5.setIcon(icon_85b7da22031af62526eef5d339c1de80);
+        
+    
+        var popup_8f1d082c91cc58e68dd52c0a5d8f512a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cac7e13f3e71b942455f361193dd25d = $(`<div id="html_8cac7e13f3e71b942455f361193dd25d" style="width: 100.0%; height: 100.0%;">Barossa Valley</div>`)[0];
+                popup_8f1d082c91cc58e68dd52c0a5d8f512a.setContent(html_8cac7e13f3e71b942455f361193dd25d);
+            
+        
+
+        marker_149e9fea810550b2b2f68fa9bf052ef5.bindPopup(popup_8f1d082c91cc58e68dd52c0a5d8f512a)
+        ;
+
+        
+    
+    
+            var marker_223eea2ef84443545ee129daf8792691 = L.marker(
+                [-35.7754, 137.2147],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_af4fa48c44d7e0c60263fddb4a6892f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_223eea2ef84443545ee129daf8792691.setIcon(icon_af4fa48c44d7e0c60263fddb4a6892f3);
+        
+    
+        var popup_415525531aa8a05301380eb05d4a5298 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4042148c16f2dc02838a5c00e0a04a8 = $(`<div id="html_a4042148c16f2dc02838a5c00e0a04a8" style="width: 100.0%; height: 100.0%;">Kangaroo Island</div>`)[0];
+                popup_415525531aa8a05301380eb05d4a5298.setContent(html_a4042148c16f2dc02838a5c00e0a04a8);
+            
+        
+
+        marker_223eea2ef84443545ee129daf8792691.bindPopup(popup_415525531aa8a05301380eb05d4a5298)
+        ;
+
+        
+    
+    
+            var marker_e33e61313d0905ae90ed5bd79fa03e86 = L.marker(
+                [-33.9172, 138.6067],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_455a29a90b8cf44777257caa2d952f0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e33e61313d0905ae90ed5bd79fa03e86.setIcon(icon_455a29a90b8cf44777257caa2d952f0f);
+        
+    
+        var popup_d704d4c16c7dc44d5957dc7f779fecf6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_137927ff033a8a73b093fdd1d225e0cb = $(`<div id="html_137927ff033a8a73b093fdd1d225e0cb" style="width: 100.0%; height: 100.0%;">Clare Valley</div>`)[0];
+                popup_d704d4c16c7dc44d5957dc7f779fecf6.setContent(html_137927ff033a8a73b093fdd1d225e0cb);
+            
+        
+
+        marker_e33e61313d0905ae90ed5bd79fa03e86.bindPopup(popup_d704d4c16c7dc44d5957dc7f779fecf6)
+        ;
+
+        
+    
+    
+            var marker_9c17b2ed92f4d6f3a51f152cc28a8aa8 = L.marker(
+                [-35.217, 138.544],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_46332332be0ebe0e6fd5813db5ede9c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c17b2ed92f4d6f3a51f152cc28a8aa8.setIcon(icon_46332332be0ebe0e6fd5813db5ede9c9);
+        
+    
+        var popup_5c378dd07a7bdcaf86def88bc5c88f9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36c48ab8175b804b4fccd8567ae4df42 = $(`<div id="html_36c48ab8175b804b4fccd8567ae4df42" style="width: 100.0%; height: 100.0%;">McLaren Vale</div>`)[0];
+                popup_5c378dd07a7bdcaf86def88bc5c88f9f.setContent(html_36c48ab8175b804b4fccd8567ae4df42);
+            
+        
+
+        marker_9c17b2ed92f4d6f3a51f152cc28a8aa8.bindPopup(popup_5c378dd07a7bdcaf86def88bc5c88f9f)
+        ;
+
+        
+    
+    
+            var marker_a8fc0c4fce2df63bdcc2e3e2cf18f807 = L.marker(
+                [-34.6095, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_fecf0707180eb8ff8d7c1904e8c0b8b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a8fc0c4fce2df63bdcc2e3e2cf18f807.setIcon(icon_fecf0707180eb8ff8d7c1904e8c0b8b3);
+        
+    
+        var popup_d25528e0a60e669b2fd57be7776f56f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7952c53d40102a6ece90285bc7f2f044 = $(`<div id="html_7952c53d40102a6ece90285bc7f2f044" style="width: 100.0%; height: 100.0%;">Coffin Bay</div>`)[0];
+                popup_d25528e0a60e669b2fd57be7776f56f3.setContent(html_7952c53d40102a6ece90285bc7f2f044);
+            
+        
+
+        marker_a8fc0c4fce2df63bdcc2e3e2cf18f807.bindPopup(popup_d25528e0a60e669b2fd57be7776f56f3)
+        ;
+
+        
+    
+    
+            var marker_4de9f18c4e8c62a99605fcee1e6360c5 = L.marker(
+                [-34.7209, 135.8568],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_d15682bf56077f84dedbe363b4c1d28a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4de9f18c4e8c62a99605fcee1e6360c5.setIcon(icon_d15682bf56077f84dedbe363b4c1d28a);
+        
+    
+        var popup_1ec88489d62f18a8f37379ddccc2a70f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a94442f4da5f30d529c1d7ccc0be78f1 = $(`<div id="html_a94442f4da5f30d529c1d7ccc0be78f1" style="width: 100.0%; height: 100.0%;">Port Lincoln</div>`)[0];
+                popup_1ec88489d62f18a8f37379ddccc2a70f.setContent(html_a94442f4da5f30d529c1d7ccc0be78f1);
+            
+        
+
+        marker_4de9f18c4e8c62a99605fcee1e6360c5.bindPopup(popup_1ec88489d62f18a8f37379ddccc2a70f)
+        ;
+
+        
+    
+    
+            var marker_62e8050881ff688f8949fe15c6e79392 = L.marker(
+                [-34.5595, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_09c0277715f2a1fd30a0bd73a3a41545 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_62e8050881ff688f8949fe15c6e79392.setIcon(icon_09c0277715f2a1fd30a0bd73a3a41545);
+        
+    
+        var popup_858e4cb87564e713b0939a9dfc3ec290 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09c1e6669f90bb2c96cc92ad0526e0d0 = $(`<div id="html_09c1e6669f90bb2c96cc92ad0526e0d0" style="width: 100.0%; height: 100.0%;">Coffin Bay: Partly Cloudy</div>`)[0];
+                popup_858e4cb87564e713b0939a9dfc3ec290.setContent(html_09c1e6669f90bb2c96cc92ad0526e0d0);
+            
+        
+
+        marker_62e8050881ff688f8949fe15c6e79392.bindPopup(popup_858e4cb87564e713b0939a9dfc3ec290)
+        ;
+
+        
+    
+    
+            var marker_e1ee0ea70426ebe20f93d435078f0be9 = L.marker(
+                [-34.5595, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_ba680512f9ecc66eea5e0fb0b58f524a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e1ee0ea70426ebe20f93d435078f0be9.setIcon(icon_ba680512f9ecc66eea5e0fb0b58f524a);
+        
+    
+        var popup_d62484a8e1a71b81b01aeb44ffd3f1ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_206966aa56d88c299f1f1b1136f076b8 = $(`<div id="html_206966aa56d88c299f1f1b1136f076b8" style="width: 100.0%; height: 100.0%;">Port Lincoln: Sunny</div>`)[0];
+                popup_d62484a8e1a71b81b01aeb44ffd3f1ca.setContent(html_206966aa56d88c299f1f1b1136f076b8);
+            
+        
+
+        marker_e1ee0ea70426ebe20f93d435078f0be9.bindPopup(popup_d62484a8e1a71b81b01aeb44ffd3f1ca)
+        ;
+
+        
+    
+    
+            var marker_c5dc53e96c03fda85363d8af73368c91 = L.marker(
+                [-34.5595, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_044fe8199be3fcd49957be2121a14d70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c5dc53e96c03fda85363d8af73368c91.setIcon(icon_044fe8199be3fcd49957be2121a14d70);
+        
+    
+        var popup_580bf72377bc4fbe8c505c0f33f5c371 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d963f4256b8c953f74612f009c97a77e = $(`<div id="html_d963f4256b8c953f74612f009c97a77e" style="width: 100.0%; height: 100.0%;">Barossa Valley: Sunny</div>`)[0];
+                popup_580bf72377bc4fbe8c505c0f33f5c371.setContent(html_d963f4256b8c953f74612f009c97a77e);
+            
+        
+
+        marker_c5dc53e96c03fda85363d8af73368c91.bindPopup(popup_580bf72377bc4fbe8c505c0f33f5c371)
+        ;
+
+        
+    
+    
+            var marker_b5bc9e4703cde377e78bbe194866a2b6 = L.marker(
+                [-29.0131, 134.7536],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_38191ea6b3ab2dcc40af4de6941a58df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b5bc9e4703cde377e78bbe194866a2b6.setIcon(icon_38191ea6b3ab2dcc40af4de6941a58df);
+        
+    
+        var popup_4c1d63d97de2f7c28ef7dd3225aecfee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e368d7fe0e306d789faab297f2b5480d = $(`<div id="html_e368d7fe0e306d789faab297f2b5480d" style="width: 100.0%; height: 100.0%;">Coober Pedy weather: Sunny Fire service: N/A Emergency Service: N/A </div>`)[0];
+                popup_4c1d63d97de2f7c28ef7dd3225aecfee.setContent(html_e368d7fe0e306d789faab297f2b5480d);
+            
+        
+
+        marker_b5bc9e4703cde377e78bbe194866a2b6.bindPopup(popup_4c1d63d97de2f7c28ef7dd3225aecfee)
+        ;
+
+        
+    
+    
+            var marker_c5174704a3e1a8fcf4872fd97077eadd = L.marker(
+                [-34.5333, 139.0467],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_d44c2d543cb6370ac4d254d19ab5f4f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c5174704a3e1a8fcf4872fd97077eadd.setIcon(icon_d44c2d543cb6370ac4d254d19ab5f4f7);
+        
+    
+        var popup_33a398c3e0cd03f93ccde8b89482f41c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0edb3923188892511abd9e344ee3a2b = $(`<div id="html_b0edb3923188892511abd9e344ee3a2b" style="width: 100.0%; height: 100.0%;">Barossa Valley</div>`)[0];
+                popup_33a398c3e0cd03f93ccde8b89482f41c.setContent(html_b0edb3923188892511abd9e344ee3a2b);
+            
+        
+
+        marker_c5174704a3e1a8fcf4872fd97077eadd.bindPopup(popup_33a398c3e0cd03f93ccde8b89482f41c)
+        ;
+
+        
+    
+    
+            var marker_f97b0dec4ce9cf7b00adfdf8280e3208 = L.marker(
+                [-35.7754, 137.2147],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_0754dbd2e1d99178f104cf130029ba4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f97b0dec4ce9cf7b00adfdf8280e3208.setIcon(icon_0754dbd2e1d99178f104cf130029ba4d);
+        
+    
+        var popup_cd302d195a9da9d21f721e62190a41df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c243eecb7b713c8001847c40904b5930 = $(`<div id="html_c243eecb7b713c8001847c40904b5930" style="width: 100.0%; height: 100.0%;">Kangaroo Island</div>`)[0];
+                popup_cd302d195a9da9d21f721e62190a41df.setContent(html_c243eecb7b713c8001847c40904b5930);
+            
+        
+
+        marker_f97b0dec4ce9cf7b00adfdf8280e3208.bindPopup(popup_cd302d195a9da9d21f721e62190a41df)
+        ;
+
+        
+    
+    
+            var marker_b6c0d8cc08ba4ef231d212fa738f769b = L.marker(
+                [-33.9172, 138.6067],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_d863a9207a77917d80e726376d97d735 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b6c0d8cc08ba4ef231d212fa738f769b.setIcon(icon_d863a9207a77917d80e726376d97d735);
+        
+    
+        var popup_ae4a3b1f5b0c26707227dcce984000d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6969f229dcdb2239cf2944460189b6fb = $(`<div id="html_6969f229dcdb2239cf2944460189b6fb" style="width: 100.0%; height: 100.0%;">Clare Valley</div>`)[0];
+                popup_ae4a3b1f5b0c26707227dcce984000d4.setContent(html_6969f229dcdb2239cf2944460189b6fb);
+            
+        
+
+        marker_b6c0d8cc08ba4ef231d212fa738f769b.bindPopup(popup_ae4a3b1f5b0c26707227dcce984000d4)
+        ;
+
+        
+    
+    
+            var marker_11c0884a161cad1e9bca8d83e0f58924 = L.marker(
+                [-35.217, 138.544],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_ef41c882bdf59d00157a3de0e1371816 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_11c0884a161cad1e9bca8d83e0f58924.setIcon(icon_ef41c882bdf59d00157a3de0e1371816);
+        
+    
+        var popup_d494391d4d4991398aad0e4bee4347f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_386dcba69065501024b528272316c96d = $(`<div id="html_386dcba69065501024b528272316c96d" style="width: 100.0%; height: 100.0%;">McLaren Vale</div>`)[0];
+                popup_d494391d4d4991398aad0e4bee4347f0.setContent(html_386dcba69065501024b528272316c96d);
+            
+        
+
+        marker_11c0884a161cad1e9bca8d83e0f58924.bindPopup(popup_d494391d4d4991398aad0e4bee4347f0)
+        ;
+
+        
+    
+    
+            var marker_008d731f372f9fa1f667ad914ff3e707 = L.marker(
+                [-34.6095, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_b275801fd5cdd622157689cf6cd5b516 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_008d731f372f9fa1f667ad914ff3e707.setIcon(icon_b275801fd5cdd622157689cf6cd5b516);
+        
+    
+        var popup_fe7da9b53a791fb81ed8962af4680474 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9338100ba25c55799c02bbc8d092cd9 = $(`<div id="html_d9338100ba25c55799c02bbc8d092cd9" style="width: 100.0%; height: 100.0%;">Coffin Bay</div>`)[0];
+                popup_fe7da9b53a791fb81ed8962af4680474.setContent(html_d9338100ba25c55799c02bbc8d092cd9);
+            
+        
+
+        marker_008d731f372f9fa1f667ad914ff3e707.bindPopup(popup_fe7da9b53a791fb81ed8962af4680474)
+        ;
+
+        
+    
+    
+            var marker_a96eeb7d5db1588b0d1da5cd997d0b4a = L.marker(
+                [-34.7209, 135.8568],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_260e3a1a47b7d9daf46c507a98db1053 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a96eeb7d5db1588b0d1da5cd997d0b4a.setIcon(icon_260e3a1a47b7d9daf46c507a98db1053);
+        
+    
+        var popup_cb8f5dd984cbfa70d0b977e78aeb40fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c76a97a44f7dd5c2f24b5597821921d = $(`<div id="html_7c76a97a44f7dd5c2f24b5597821921d" style="width: 100.0%; height: 100.0%;">Port Lincoln</div>`)[0];
+                popup_cb8f5dd984cbfa70d0b977e78aeb40fc.setContent(html_7c76a97a44f7dd5c2f24b5597821921d);
+            
+        
+
+        marker_a96eeb7d5db1588b0d1da5cd997d0b4a.bindPopup(popup_cb8f5dd984cbfa70d0b977e78aeb40fc)
+        ;
+
+        
+    
+    
+            var marker_9da04be3858ca03086ebbed851d45cea = L.marker(
+                [-34.5595, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_ef90e03a69f603cfec1d32563d4991f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9da04be3858ca03086ebbed851d45cea.setIcon(icon_ef90e03a69f603cfec1d32563d4991f8);
+        
+    
+        var popup_9b9caedde2bb7bec05eeb098fff38aa1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_099a08e082f6dd6829357fb6e3f09a05 = $(`<div id="html_099a08e082f6dd6829357fb6e3f09a05" style="width: 100.0%; height: 100.0%;">Coffin Bay: Partly Cloudy</div>`)[0];
+                popup_9b9caedde2bb7bec05eeb098fff38aa1.setContent(html_099a08e082f6dd6829357fb6e3f09a05);
+            
+        
+
+        marker_9da04be3858ca03086ebbed851d45cea.bindPopup(popup_9b9caedde2bb7bec05eeb098fff38aa1)
+        ;
+
+        
+    
+    
+            var marker_00825ffb63a225012abc54be28053c8a = L.marker(
+                [-34.5595, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_7b3eb6da722f8722c786ec4d5c4aeae7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_00825ffb63a225012abc54be28053c8a.setIcon(icon_7b3eb6da722f8722c786ec4d5c4aeae7);
+        
+    
+        var popup_7fc1d201652a8259d83ce8289a0fe9cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_403d1e4199e90e6e740696a30da31b2e = $(`<div id="html_403d1e4199e90e6e740696a30da31b2e" style="width: 100.0%; height: 100.0%;">Port Lincoln: Sunny</div>`)[0];
+                popup_7fc1d201652a8259d83ce8289a0fe9cc.setContent(html_403d1e4199e90e6e740696a30da31b2e);
+            
+        
+
+        marker_00825ffb63a225012abc54be28053c8a.bindPopup(popup_7fc1d201652a8259d83ce8289a0fe9cc)
+        ;
+
+        
+    
+    
+            var marker_5414f98b1267fcb38f738257d8a617a6 = L.marker(
+                [-34.5595, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_9be6edef4cf64cd43da92cf4096284df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5414f98b1267fcb38f738257d8a617a6.setIcon(icon_9be6edef4cf64cd43da92cf4096284df);
+        
+    
+        var popup_b7fd1197d9aa1cda5e2d58eb909059a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4be4818b39fa851053029cd9ed2cd404 = $(`<div id="html_4be4818b39fa851053029cd9ed2cd404" style="width: 100.0%; height: 100.0%;">Barossa Valley: Sunny</div>`)[0];
+                popup_b7fd1197d9aa1cda5e2d58eb909059a5.setContent(html_4be4818b39fa851053029cd9ed2cd404);
+            
+        
+
+        marker_5414f98b1267fcb38f738257d8a617a6.bindPopup(popup_b7fd1197d9aa1cda5e2d58eb909059a5)
+        ;
+
+        
+    
+    
+            var marker_963283fb5dac2ead1ddb00936e5afb91 = L.marker(
+                [-29.0131, 134.7536],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_ae62fe487914eec726dca56574f6e82d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_963283fb5dac2ead1ddb00936e5afb91.setIcon(icon_ae62fe487914eec726dca56574f6e82d);
+        
+    
+        var popup_07f3ffd4601ba773d05cf4166cd52879 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61a9042238c4d642df0389a1e448ef08 = $(`<div id="html_61a9042238c4d642df0389a1e448ef08" style="width: 100.0%; height: 100.0%;">Coober Pedy  Weather: Partly cloudy Temperate: 19°C   Precipitation: 0%    Humidity: 44%   Wind: 16 km/h   Sunset: 5:00 pm  Fire service: N/A   Emergency Service: N/A   </div>`)[0];
+                popup_07f3ffd4601ba773d05cf4166cd52879.setContent(html_61a9042238c4d642df0389a1e448ef08);
+            
+        
+
+        marker_963283fb5dac2ead1ddb00936e5afb91.bindPopup(popup_07f3ffd4601ba773d05cf4166cd52879)
+        ;
+
+        
+    
+    
+            var marker_31ff8c1c22b19f65423068fcd2a5b305 = L.marker(
+                [-34.5333, 139.0467],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_a17bca47d73ca0ff5820c2073ea01323 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_31ff8c1c22b19f65423068fcd2a5b305.setIcon(icon_a17bca47d73ca0ff5820c2073ea01323);
+        
+    
+        var popup_db508caf8020efeec9f460b3b426220c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_775e9592cfd3965fcde9af43c5350cec = $(`<div id="html_775e9592cfd3965fcde9af43c5350cec" style="width: 100.0%; height: 100.0%;">Barossa Valley</div>`)[0];
+                popup_db508caf8020efeec9f460b3b426220c.setContent(html_775e9592cfd3965fcde9af43c5350cec);
+            
+        
+
+        marker_31ff8c1c22b19f65423068fcd2a5b305.bindPopup(popup_db508caf8020efeec9f460b3b426220c)
+        ;
+
+        
+    
+    
+            var marker_da70e76b3ae3dbeacb677711841f9b4a = L.marker(
+                [-35.7754, 137.2147],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_f4c4ada4b468303c80bbe14d588125aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_da70e76b3ae3dbeacb677711841f9b4a.setIcon(icon_f4c4ada4b468303c80bbe14d588125aa);
+        
+    
+        var popup_a1850d28aab2c0c59bbd223b4d2f1926 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb49c8097e77b095e2d84f3a62b09bbb = $(`<div id="html_eb49c8097e77b095e2d84f3a62b09bbb" style="width: 100.0%; height: 100.0%;">Kangaroo Island</div>`)[0];
+                popup_a1850d28aab2c0c59bbd223b4d2f1926.setContent(html_eb49c8097e77b095e2d84f3a62b09bbb);
+            
+        
+
+        marker_da70e76b3ae3dbeacb677711841f9b4a.bindPopup(popup_a1850d28aab2c0c59bbd223b4d2f1926)
+        ;
+
+        
+    
+    
+            var marker_44d6851f33d1f8a218114537244dc9c3 = L.marker(
+                [-33.9172, 138.6067],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_c894aff24c43f2cac5039074360dd00d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_44d6851f33d1f8a218114537244dc9c3.setIcon(icon_c894aff24c43f2cac5039074360dd00d);
+        
+    
+        var popup_cfd0b4c32457c831a6fe82de145fe5d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_162bc5ae187a486a3cbdb0b03a37f94b = $(`<div id="html_162bc5ae187a486a3cbdb0b03a37f94b" style="width: 100.0%; height: 100.0%;">Clare Valley</div>`)[0];
+                popup_cfd0b4c32457c831a6fe82de145fe5d5.setContent(html_162bc5ae187a486a3cbdb0b03a37f94b);
+            
+        
+
+        marker_44d6851f33d1f8a218114537244dc9c3.bindPopup(popup_cfd0b4c32457c831a6fe82de145fe5d5)
+        ;
+
+        
+    
+    
+            var marker_8dc003e81b2c75bcfd2ff43238654cae = L.marker(
+                [-35.217, 138.544],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_a4a9f2c61bf556bcc0584a82d5fb1b79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8dc003e81b2c75bcfd2ff43238654cae.setIcon(icon_a4a9f2c61bf556bcc0584a82d5fb1b79);
+        
+    
+        var popup_780c46fbdfc4eefb8e3978e74eea8d90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4af8f69f33c7c0959f606877312501a8 = $(`<div id="html_4af8f69f33c7c0959f606877312501a8" style="width: 100.0%; height: 100.0%;">McLaren Vale</div>`)[0];
+                popup_780c46fbdfc4eefb8e3978e74eea8d90.setContent(html_4af8f69f33c7c0959f606877312501a8);
+            
+        
+
+        marker_8dc003e81b2c75bcfd2ff43238654cae.bindPopup(popup_780c46fbdfc4eefb8e3978e74eea8d90)
+        ;
+
+        
+    
+    
+            var marker_440d07d147c52e024be99e438735345c = L.marker(
+                [-34.6095, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_fe7b4932542a6d24bef626919e74800b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_440d07d147c52e024be99e438735345c.setIcon(icon_fe7b4932542a6d24bef626919e74800b);
+        
+    
+        var popup_89356450219a0bb4f48c30fded44b855 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_648e9c0cf2a44a201f4fc0d2c58a5c2d = $(`<div id="html_648e9c0cf2a44a201f4fc0d2c58a5c2d" style="width: 100.0%; height: 100.0%;">Coffin Bay</div>`)[0];
+                popup_89356450219a0bb4f48c30fded44b855.setContent(html_648e9c0cf2a44a201f4fc0d2c58a5c2d);
+            
+        
+
+        marker_440d07d147c52e024be99e438735345c.bindPopup(popup_89356450219a0bb4f48c30fded44b855)
+        ;
+
+        
+    
+    
+            var marker_812349343d391f72866bbb89686d9519 = L.marker(
+                [-34.7209, 135.8568],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_bbc0f95eb45531bdee2d68437e449ac0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_812349343d391f72866bbb89686d9519.setIcon(icon_bbc0f95eb45531bdee2d68437e449ac0);
+        
+    
+        var popup_573149d90f0fddbf8b7c2260694a3dd1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0be8aa88fac1eb0db98df98b027240ae = $(`<div id="html_0be8aa88fac1eb0db98df98b027240ae" style="width: 100.0%; height: 100.0%;">Port Lincoln</div>`)[0];
+                popup_573149d90f0fddbf8b7c2260694a3dd1.setContent(html_0be8aa88fac1eb0db98df98b027240ae);
+            
+        
+
+        marker_812349343d391f72866bbb89686d9519.bindPopup(popup_573149d90f0fddbf8b7c2260694a3dd1)
+        ;
+
+        
+    
+    
+            var marker_8286b72130c9f8e0a337632aa91165cf = L.marker(
+                [-34.5595, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_6a398cd75228107b4d4d08b8f05badf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8286b72130c9f8e0a337632aa91165cf.setIcon(icon_6a398cd75228107b4d4d08b8f05badf1);
+        
+    
+        var popup_e489dcfb867c9d1fd4771471a7423128 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_405d6396fbcc56767a2776b56c2292de = $(`<div id="html_405d6396fbcc56767a2776b56c2292de" style="width: 100.0%; height: 100.0%;">Coffin Bay: Partly Cloudy</div>`)[0];
+                popup_e489dcfb867c9d1fd4771471a7423128.setContent(html_405d6396fbcc56767a2776b56c2292de);
+            
+        
+
+        marker_8286b72130c9f8e0a337632aa91165cf.bindPopup(popup_e489dcfb867c9d1fd4771471a7423128)
+        ;
+
+        
+    
+    
+            var marker_f09edea7fa4c4dd5107b8771ba8f9805 = L.marker(
+                [-34.5595, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_f9fb27023a86cf12148094786bb3ca56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f09edea7fa4c4dd5107b8771ba8f9805.setIcon(icon_f9fb27023a86cf12148094786bb3ca56);
+        
+    
+        var popup_15f33b3d70f190f4915e664c0fb270d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1789b0e40b96dfd71c324772653d63ab = $(`<div id="html_1789b0e40b96dfd71c324772653d63ab" style="width: 100.0%; height: 100.0%;">Port Lincoln: Sunny</div>`)[0];
+                popup_15f33b3d70f190f4915e664c0fb270d4.setContent(html_1789b0e40b96dfd71c324772653d63ab);
+            
+        
+
+        marker_f09edea7fa4c4dd5107b8771ba8f9805.bindPopup(popup_15f33b3d70f190f4915e664c0fb270d4)
+        ;
+
+        
+    
+    
+            var marker_be0aa6ef15b2a05eb1767f50eb0a6ef6 = L.marker(
+                [-34.5595, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_e1cb3735c2d1fc9d654c7e19d6957318 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_be0aa6ef15b2a05eb1767f50eb0a6ef6.setIcon(icon_e1cb3735c2d1fc9d654c7e19d6957318);
+        
+    
+        var popup_d039ecdc71adc5fdefa2ac7e9d4deb62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7082e45c44dc9e229118dafe7fed249 = $(`<div id="html_d7082e45c44dc9e229118dafe7fed249" style="width: 100.0%; height: 100.0%;">Barossa Valley: Sunny</div>`)[0];
+                popup_d039ecdc71adc5fdefa2ac7e9d4deb62.setContent(html_d7082e45c44dc9e229118dafe7fed249);
+            
+        
+
+        marker_be0aa6ef15b2a05eb1767f50eb0a6ef6.bindPopup(popup_d039ecdc71adc5fdefa2ac7e9d4deb62)
+        ;
+
+        
+    
+    
+            var marker_fdb7d9c991eede7c1588ce03ae1b3b7d = L.marker(
+                [-29.0131, 134.7536],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_9a97de8b7d7ca246cb25d313bf730561 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fdb7d9c991eede7c1588ce03ae1b3b7d.setIcon(icon_9a97de8b7d7ca246cb25d313bf730561);
+        
+    
+        var popup_f7dc82b4a8266168beb68424af5eb4d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f4b5a6bcd2b432e8a5594f5eb782e60 = $(`<div id="html_7f4b5a6bcd2b432e8a5594f5eb782e60" style="width: 100.0%; height: 100.0%;">Coober Pedy  Weather: Partly cloudy Temperate: 19°C   Precipitation: 0%    Humidity: 44%   Wind: 16 km/h   Sunset: 5:00 pm  Fire service: N/A   Emergency Service: N/A   </div>`)[0];
+                popup_f7dc82b4a8266168beb68424af5eb4d4.setContent(html_7f4b5a6bcd2b432e8a5594f5eb782e60);
+            
+        
+
+        marker_fdb7d9c991eede7c1588ce03ae1b3b7d.bindPopup(popup_f7dc82b4a8266168beb68424af5eb4d4)
+        ;
+
+        
+    
+    
+            var marker_c4d02e30924299b732cf7e77702c74bf = L.marker(
+                [-34.5333, 139.0467],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_18660bd89801f5d6df4c17dcc1723414 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c4d02e30924299b732cf7e77702c74bf.setIcon(icon_18660bd89801f5d6df4c17dcc1723414);
+        
+    
+        var popup_52c00bf056d6ae60d31f0a1650ea8181 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58bf60e9c6f70a45825125c154dfeba9 = $(`<div id="html_58bf60e9c6f70a45825125c154dfeba9" style="width: 100.0%; height: 100.0%;">Barossa Valley</div>`)[0];
+                popup_52c00bf056d6ae60d31f0a1650ea8181.setContent(html_58bf60e9c6f70a45825125c154dfeba9);
+            
+        
+
+        marker_c4d02e30924299b732cf7e77702c74bf.bindPopup(popup_52c00bf056d6ae60d31f0a1650ea8181)
+        ;
+
+        
+    
+    
+            var marker_dc3c87cf50d9f48e01c373d1b680af01 = L.marker(
+                [-35.7754, 137.2147],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_9303bc24c909a778431c0abeefb97039 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dc3c87cf50d9f48e01c373d1b680af01.setIcon(icon_9303bc24c909a778431c0abeefb97039);
+        
+    
+        var popup_6a23dc4e554b1041cf93907ff70fed55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f27080260edb7eeec383ce0d81e6b6fc = $(`<div id="html_f27080260edb7eeec383ce0d81e6b6fc" style="width: 100.0%; height: 100.0%;">Kangaroo Island</div>`)[0];
+                popup_6a23dc4e554b1041cf93907ff70fed55.setContent(html_f27080260edb7eeec383ce0d81e6b6fc);
+            
+        
+
+        marker_dc3c87cf50d9f48e01c373d1b680af01.bindPopup(popup_6a23dc4e554b1041cf93907ff70fed55)
+        ;
+
+        
+    
+    
+            var marker_ff056ce5dc18ca9107a3f29bbcb3ae95 = L.marker(
+                [-33.9172, 138.6067],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_0a8b0dc79e7058ea6e5cc5d246aecd87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ff056ce5dc18ca9107a3f29bbcb3ae95.setIcon(icon_0a8b0dc79e7058ea6e5cc5d246aecd87);
+        
+    
+        var popup_d0e0606ff2741a26ffe31d1407369a1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abfe603c8642bf7ad580a578433aa028 = $(`<div id="html_abfe603c8642bf7ad580a578433aa028" style="width: 100.0%; height: 100.0%;">Clare Valley</div>`)[0];
+                popup_d0e0606ff2741a26ffe31d1407369a1c.setContent(html_abfe603c8642bf7ad580a578433aa028);
+            
+        
+
+        marker_ff056ce5dc18ca9107a3f29bbcb3ae95.bindPopup(popup_d0e0606ff2741a26ffe31d1407369a1c)
+        ;
+
+        
+    
+    
+            var marker_abd3aa946c513fa7050a7c788846f234 = L.marker(
+                [-35.217, 138.544],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_1775dfb9bcc3eb72e2707e9166807ff9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_abd3aa946c513fa7050a7c788846f234.setIcon(icon_1775dfb9bcc3eb72e2707e9166807ff9);
+        
+    
+        var popup_39e4417b3f636e525a46e1f5aaa34d46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c905422e355643bd8367451d21b92143 = $(`<div id="html_c905422e355643bd8367451d21b92143" style="width: 100.0%; height: 100.0%;">McLaren Vale</div>`)[0];
+                popup_39e4417b3f636e525a46e1f5aaa34d46.setContent(html_c905422e355643bd8367451d21b92143);
+            
+        
+
+        marker_abd3aa946c513fa7050a7c788846f234.bindPopup(popup_39e4417b3f636e525a46e1f5aaa34d46)
+        ;
+
+        
+    
+    
+            var marker_fc73623619de0ba3735553d427d1dbe3 = L.marker(
+                [-34.6095, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_3c13bb9295666487c2240fc06317e77b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fc73623619de0ba3735553d427d1dbe3.setIcon(icon_3c13bb9295666487c2240fc06317e77b);
+        
+    
+        var popup_25b98ba75a737c8d6efeca24b77ff0be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f6ee12b744a00498e2fb3cec766eedd = $(`<div id="html_8f6ee12b744a00498e2fb3cec766eedd" style="width: 100.0%; height: 100.0%;">Coffin Bay</div>`)[0];
+                popup_25b98ba75a737c8d6efeca24b77ff0be.setContent(html_8f6ee12b744a00498e2fb3cec766eedd);
+            
+        
+
+        marker_fc73623619de0ba3735553d427d1dbe3.bindPopup(popup_25b98ba75a737c8d6efeca24b77ff0be)
+        ;
+
+        
+    
+    
+            var marker_12d0665a878e8cb093a3c0830ef794c0 = L.marker(
+                [-34.7209, 135.8568],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_acb7924ad811453cc9f912ffa32ee1df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_12d0665a878e8cb093a3c0830ef794c0.setIcon(icon_acb7924ad811453cc9f912ffa32ee1df);
+        
+    
+        var popup_d4ec8c757fb36e7187204caade1b4929 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8d0d768c906a918e3665f5d13f052a1 = $(`<div id="html_e8d0d768c906a918e3665f5d13f052a1" style="width: 100.0%; height: 100.0%;">Port Lincoln  Weather: Partly cloudy Temperate: 19°C   Precipitation: 0%    Humidity: 44%   Wind: 16 km/h   Sunset: 5:00 pm  Fire service: N/A   Emergency Service: N/A   </div>`)[0];
+                popup_d4ec8c757fb36e7187204caade1b4929.setContent(html_e8d0d768c906a918e3665f5d13f052a1);
+            
+        
+
+        marker_12d0665a878e8cb093a3c0830ef794c0.bindPopup(popup_d4ec8c757fb36e7187204caade1b4929)
+        ;
+
+        
+    
+    
+            var marker_c5237d9f007bafe5d1f6dc7324b5457d = L.marker(
+                [-29.0131, 134.7536],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_588e730ff85462b6d1aed531774d6d49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c5237d9f007bafe5d1f6dc7324b5457d.setIcon(icon_588e730ff85462b6d1aed531774d6d49);
+        
+    
+        var popup_8d08c7e53513cd13f110cf5ddb04c586 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc9bc658f9680c66011492a6aeb2dbbe = $(`<div id="html_fc9bc658f9680c66011492a6aeb2dbbe" style="width: 100.0%; height: 100.0%;">Coober Pedy</div>`)[0];
+                popup_8d08c7e53513cd13f110cf5ddb04c586.setContent(html_fc9bc658f9680c66011492a6aeb2dbbe);
+            
+        
+
+        marker_c5237d9f007bafe5d1f6dc7324b5457d.bindPopup(popup_8d08c7e53513cd13f110cf5ddb04c586)
+        ;
+
+        
+    
+    
+            marker_c5237d9f007bafe5d1f6dc7324b5457d.bindTooltip(
+                `<div>
+                      Weather: Partly cloudy
+Temperate: 19°C 
+
+Precipitation: 0% 
+ 
+Humidity: 44% 
+
+Wind: 16 km/h 
+
+Sunset: 5:00 pm
+
+Fire service: N/A 
+
+Emergency Service: N/A 
+
+
+                 </div>`,
+                {"permanent": true, "sticky": true}
+            );
+        
+    
+            var marker_cf2b7551c89ec78c08c2abdc379412fb = L.marker(
+                [-34.5333, 139.0467],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_34a89fcedb398749d496af6b6d0d6dcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cf2b7551c89ec78c08c2abdc379412fb.setIcon(icon_34a89fcedb398749d496af6b6d0d6dcb);
+        
+    
+        var popup_7d8033db5af4f66beeaca9e75fd6aa34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8c989e72ff399aeee0702e4b53de3a3 = $(`<div id="html_e8c989e72ff399aeee0702e4b53de3a3" style="width: 100.0%; height: 100.0%;">Barossa Valley</div>`)[0];
+                popup_7d8033db5af4f66beeaca9e75fd6aa34.setContent(html_e8c989e72ff399aeee0702e4b53de3a3);
+            
+        
+
+        marker_cf2b7551c89ec78c08c2abdc379412fb.bindPopup(popup_7d8033db5af4f66beeaca9e75fd6aa34)
+        ;
+
+        
+    
+    
+            var marker_cf4bd7234ea42e6a70d9f1d220decd1c = L.marker(
+                [-35.7754, 137.2147],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_1235f615f81ae4c08a67861f5cee42dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cf4bd7234ea42e6a70d9f1d220decd1c.setIcon(icon_1235f615f81ae4c08a67861f5cee42dd);
+        
+    
+        var popup_f7c07cef9d2ca9e7824129af00d0f159 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6d6d6ffa8a499fc8ec993e080dbf296 = $(`<div id="html_a6d6d6ffa8a499fc8ec993e080dbf296" style="width: 100.0%; height: 100.0%;">Kangaroo Island</div>`)[0];
+                popup_f7c07cef9d2ca9e7824129af00d0f159.setContent(html_a6d6d6ffa8a499fc8ec993e080dbf296);
+            
+        
+
+        marker_cf4bd7234ea42e6a70d9f1d220decd1c.bindPopup(popup_f7c07cef9d2ca9e7824129af00d0f159)
+        ;
+
+        
+    
+    
+            var marker_adad240555965f6876e6d049c61d55a8 = L.marker(
+                [-33.9172, 138.6067],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_557e54d536b6cd9f20a39e6dea8b9c24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_adad240555965f6876e6d049c61d55a8.setIcon(icon_557e54d536b6cd9f20a39e6dea8b9c24);
+        
+    
+        var popup_4870842f6950f4e9349bbc087f796e94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94640f0765e3e8c89b94868bd0260aef = $(`<div id="html_94640f0765e3e8c89b94868bd0260aef" style="width: 100.0%; height: 100.0%;">Clare Valley</div>`)[0];
+                popup_4870842f6950f4e9349bbc087f796e94.setContent(html_94640f0765e3e8c89b94868bd0260aef);
+            
+        
+
+        marker_adad240555965f6876e6d049c61d55a8.bindPopup(popup_4870842f6950f4e9349bbc087f796e94)
+        ;
+
+        
+    
+    
+            var marker_8f451d28b184ff33b55b30006ff2a264 = L.marker(
+                [-35.217, 138.544],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_15ca964c79f8362ed5a68c751291a8d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8f451d28b184ff33b55b30006ff2a264.setIcon(icon_15ca964c79f8362ed5a68c751291a8d1);
+        
+    
+        var popup_a36a57f26268ffc2faaf0c18199f4c91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae6317fe3974610af49dbfc88fc6e20a = $(`<div id="html_ae6317fe3974610af49dbfc88fc6e20a" style="width: 100.0%; height: 100.0%;">McLaren Vale</div>`)[0];
+                popup_a36a57f26268ffc2faaf0c18199f4c91.setContent(html_ae6317fe3974610af49dbfc88fc6e20a);
+            
+        
+
+        marker_8f451d28b184ff33b55b30006ff2a264.bindPopup(popup_a36a57f26268ffc2faaf0c18199f4c91)
+        ;
+
+        
+    
+    
+            var marker_00b1c70e241b1d7787f75087ca5d2d3d = L.marker(
+                [-34.6095, 135.4693],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_fd3ed90e0aae0c8fdb301c6f244e705b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_00b1c70e241b1d7787f75087ca5d2d3d.setIcon(icon_fd3ed90e0aae0c8fdb301c6f244e705b);
+        
+    
+        var popup_60ebb2827d0676b3dfaac18ba099e6f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0709f7d24da87e26e46ff1d7701b5d52 = $(`<div id="html_0709f7d24da87e26e46ff1d7701b5d52" style="width: 100.0%; height: 100.0%;">Coffin Bay</div>`)[0];
+                popup_60ebb2827d0676b3dfaac18ba099e6f0.setContent(html_0709f7d24da87e26e46ff1d7701b5d52);
+            
+        
+
+        marker_00b1c70e241b1d7787f75087ca5d2d3d.bindPopup(popup_60ebb2827d0676b3dfaac18ba099e6f0)
+        ;
+
+        
+    
+    
+            var marker_3f5ab4ff83e56766f5bbd55844ce9c0a = L.marker(
+                [-34.7209, 135.8568],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_faf3e0e0820a73108af3e84d1f38da77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3f5ab4ff83e56766f5bbd55844ce9c0a.setIcon(icon_faf3e0e0820a73108af3e84d1f38da77);
+        
+    
+        var popup_45af94fb9ff2880bdd3869e3a8a5e65d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4a9f41ec4b36c39e8ab7ce66ea5f9d5 = $(`<div id="html_e4a9f41ec4b36c39e8ab7ce66ea5f9d5" style="width: 100.0%; height: 100.0%;">Port Lincoln</div>`)[0];
+                popup_45af94fb9ff2880bdd3869e3a8a5e65d.setContent(html_e4a9f41ec4b36c39e8ab7ce66ea5f9d5);
+            
+        
+
+        marker_3f5ab4ff83e56766f5bbd55844ce9c0a.bindPopup(popup_45af94fb9ff2880bdd3869e3a8a5e65d)
+        ;
+
+        
+    
+</script>
+</html>

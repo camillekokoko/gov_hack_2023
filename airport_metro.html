@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_632622cbb94ff6ce1fec90ad21676fe8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_632622cbb94ff6ce1fec90ad21676fe8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_632622cbb94ff6ce1fec90ad21676fe8 = L.map(
+                "map_632622cbb94ff6ce1fec90ad21676fe8",
+                {
+                    center: [-34.9285, 138.6007],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_787927269cc8f1b688c151bea7e6b511 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var marker_2f6ee8d9bcf504e075db4f4e506e863e = L.marker(
+                [-34.9474, 138.53],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+        var popup_127e51c5cdafc2748164fca632e79835 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8b92191ecc9bd66ce6e05eeed6499e5 = $(`<div id="html_c8b92191ecc9bd66ce6e05eeed6499e5" style="width: 100.0%; height: 100.0%;">Adelaide Airport</div>`)[0];
+                popup_127e51c5cdafc2748164fca632e79835.setContent(html_c8b92191ecc9bd66ce6e05eeed6499e5);
+            
+        
+
+        marker_2f6ee8d9bcf504e075db4f4e506e863e.bindPopup(popup_127e51c5cdafc2748164fca632e79835)
+        ;
+
+        
+    
+    
+            var marker_dd372a345be8b374cae99003aa8eff0b = L.marker(
+                [-34.9803, 138.516],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_48b0e024935d1e6aa906657b31ead365 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd372a345be8b374cae99003aa8eff0b.setIcon(icon_48b0e024935d1e6aa906657b31ead365);
+        
+    
+        var popup_0dd5f36482084b5fae97ab41ac0ce362 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e161c72b7866c6d03b406bde9d1b15eb = $(`<div id="html_e161c72b7866c6d03b406bde9d1b15eb" style="width: 100.0%; height: 100.0%;">Glenelg Beach</div>`)[0];
+                popup_0dd5f36482084b5fae97ab41ac0ce362.setContent(html_e161c72b7866c6d03b406bde9d1b15eb);
+            
+        
+
+        marker_dd372a345be8b374cae99003aa8eff0b.bindPopup(popup_0dd5f36482084b5fae97ab41ac0ce362)
+        ;
+
+        
+    
+    
+            var marker_374ed2247261913afca8cbc18d55b0e6 = L.marker(
+                [-34.918, 138.6152],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_f92854bca578e7205cf014e8564ebe06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_374ed2247261913afca8cbc18d55b0e6.setIcon(icon_f92854bca578e7205cf014e8564ebe06);
+        
+    
+        var popup_84962894095ec56811fe3f633675708f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2acd4d297207094b8b1a7b6a7cdc68f3 = $(`<div id="html_2acd4d297207094b8b1a7b6a7cdc68f3" style="width: 100.0%; height: 100.0%;">Adelaide Botanic Garden</div>`)[0];
+                popup_84962894095ec56811fe3f633675708f.setContent(html_2acd4d297207094b8b1a7b6a7cdc68f3);
+            
+        
+
+        marker_374ed2247261913afca8cbc18d55b0e6.bindPopup(popup_84962894095ec56811fe3f633675708f)
+        ;
+
+        
+    
+    
+            var marker_e00d254e86e441271180811c0b1876e3 = L.marker(
+                [-34.922, 138.6067],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_8ad3a3c92f4525a0add455aaf2fb0e95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "shop", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e00d254e86e441271180811c0b1876e3.setIcon(icon_8ad3a3c92f4525a0add455aaf2fb0e95);
+        
+    
+        var popup_2d13816836e4d1a427f9e00f88d8ff54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9f240c145a64e424927d93cf7b09340 = $(`<div id="html_f9f240c145a64e424927d93cf7b09340" style="width: 100.0%; height: 100.0%;">Rundle Mall</div>`)[0];
+                popup_2d13816836e4d1a427f9e00f88d8ff54.setContent(html_f9f240c145a64e424927d93cf7b09340);
+            
+        
+
+        marker_e00d254e86e441271180811c0b1876e3.bindPopup(popup_2d13816836e4d1a427f9e00f88d8ff54)
+        ;
+
+        
+    
+    
+            var marker_0c83a39768078d49aae0c2f8b8ce71d6 = L.marker(
+                [-34.915, 138.5962],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_057f902a97c07283c4b2c1df6a880543 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ticket", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0c83a39768078d49aae0c2f8b8ce71d6.setIcon(icon_057f902a97c07283c4b2c1df6a880543);
+        
+    
+        var popup_56947003dec319256278bc5cecd1b6f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c4ac5d85bf7ec29a47e9351e32cf37c = $(`<div id="html_3c4ac5d85bf7ec29a47e9351e32cf37c" style="width: 100.0%; height: 100.0%;">Adelaide Oval</div>`)[0];
+                popup_56947003dec319256278bc5cecd1b6f0.setContent(html_3c4ac5d85bf7ec29a47e9351e32cf37c);
+            
+        
+
+        marker_0c83a39768078d49aae0c2f8b8ce71d6.bindPopup(popup_56947003dec319256278bc5cecd1b6f0)
+        ;
+
+        
+    
+    
+            var marker_be5e9df1e0c4f2db433bc8ed7f7e347c = L.marker(
+                [-34.9277, 138.5021],
+                {}
+            ).addTo(map_632622cbb94ff6ce1fec90ad21676fe8);
+        
+    
+            var icon_3f0f2f1b0e00e4b467951d52675a0f2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be5e9df1e0c4f2db433bc8ed7f7e347c.setIcon(icon_3f0f2f1b0e00e4b467951d52675a0f2e);
+        
+    
+        var popup_2741fa644433a6a9cb0746dc852cc874 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e496b133be0ea28b9e8f75295ff7659 = $(`<div id="html_7e496b133be0ea28b9e8f75295ff7659" style="width: 100.0%; height: 100.0%;">Henley Beach</div>`)[0];
+                popup_2741fa644433a6a9cb0746dc852cc874.setContent(html_7e496b133be0ea28b9e8f75295ff7659);
+            
+        
+
+        marker_be5e9df1e0c4f2db433bc8ed7f7e347c.bindPopup(popup_2741fa644433a6a9cb0746dc852cc874)
+        ;
+
+        
+    
+</script>
+</html>
