@@ -24,11 +24,11 @@ Our idea:
 **Project Description:**
 Leveraging digital innovation, our app enhances tourist experiences with personalized trip planning, cashback rewards, and cultural gamification. By extending stays and encouraging local spending, we amplify visitor engagement and economic growth while showcasing the diversity of South Australia's attractions. Our dynamic app rolls out in different phrases:
 
-v1.0 App: Personalized trip planning, cashback rewards, and cultural gamification. Main target family kids.
-v2.0 Explore more regions: Expansion to offer diverse attractions beyond a single region.
-v3.0 International backpackers: Increased target audience, catering to global travelers.
-v4.0 Customizable games: User-created content with questions and maps.
-v5.0 Augmented reality: Immersive experiences that bring attractions to life.
++ v1.0 App: Personalized trip planning, cashback rewards, and cultural gamification. Main target family kids.
++ v2.0 Explore more regions: Expansion to offer diverse attractions beyond a single region.
++ v3.0 International backpackers: Increased target audience, catering to global travelers.
++ v4.0 Customizable games: User-created content with questions and maps.
++ v5.0 Augmented reality: Immersive experiences that bring attractions to life.
 
 **Data Story:**
 Background of South Australia 2030 Tourism Plan:
